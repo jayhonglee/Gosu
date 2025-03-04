@@ -3,9 +3,15 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
+import { trackEvent } from '../utils/gtag';
 
 const MainHero = () => {
   const { mainHero } = config;
+
+  const handleRegisterClick = () => {
+    trackEvent('click', 'button', 'register_now');
+  };
+
   return (
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="sm:text-center lg:text-left">
@@ -26,6 +32,7 @@ const MainHero = () => {
               smooth={true}
               offset={-70}
               duration={500}
+              onClick={handleRegisterClick}
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent !text-white font-medium rounded-md text-background bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10 cursor-pointer"
             >
               {mainHero.primaryAction.text}
