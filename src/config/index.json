@@ -1,0 +1,156 @@
+{
+  "company": {
+    "name": "ExpertLink",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "How It Works",
+      "href": "product"
+    },
+    {
+      "name": "Services",
+      "href": "features"
+    },
+    {
+      "name": "Pricing",
+      "href": "pricing"
+    },
+    {
+      "name": "About",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Be a Local Expert",
+    "subtitle": "Make Money Using Your Skills",
+    "description": "Make money and help your neighbors at the same time. From tutoring, IT, design, catering, and more, make money using your skills.",
+    "img": "/assets/images/piano_tutor.png",
+    "primaryAction": {
+      "text": "Register Now",
+      "href": "#"
+    }
+  },
+  "product": {
+    "sections": [
+      {
+        "title": "Turn Your Skills Into Income",
+        "description": "Whether you're a tutor, IT specialist, designer, cleaner, or caterer - your skills are valuable. Join our platform to connect with local clients who need your expertise and start earning money doing what you do best.",
+        "img": "/assets/images/designer.png",
+        "imagePosition": "left"
+      },
+      {
+        "title": "You Set The Terms",
+        "description": "You're in control of your business. Set your own rates, choose which jobs to bid on, and work when it suits you. Build your reputation through reviews and grow your local client base on your terms.",
+        "img": "/assets/images/review.png",
+        "imagePosition": "right"
+      }
+    ]
+  },
+  "features": {
+    "title": "Services We Offer",
+    "subtitle": "Expert help for every need",
+    "description": "Our platform connects you with local experts across a wide range of services. From academic tutoring to professional services, home maintenance to creative projects - find the right expert for any task.",
+    "items": [
+      {
+        "name": "Education",
+        "description": "Connect with qualified tutors for subjects ranging from math and science to music and languages.",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Home Services",
+        "description": "Find reliable experts for moving, cleaning, repairs, and maintenance work in your area.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Professional",
+        "description": "Access IT support, design services, and other professional expertise from local specialists.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Events",
+        "description": "Discover local caterers, photographers, and event planners for your special occasions.",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "items": [
+      {
+        "name": "Basic",
+        "price": "Free",
+        "priceDetails": "for task posting",
+        "features": [
+          "Post unlimited tasks",
+          "Browse expert profiles",
+          "Basic messaging",
+          "Community support"
+        ]
+      },
+      {
+        "name": "Pro Client",
+        "price": "$15",
+        "priceDetails": "per month",
+        "features": [
+          "Priority task posting",
+          "Advanced expert filters",
+          "Dedicated support",
+          "Dispute resolution"
+        ]
+      },
+      {
+        "name": "Expert",
+        "price": "$29",
+        "priceDetails": "per month",
+        "features": [
+          "Featured profile listing",
+          "Unlimited task bidding",
+          "Priority support",
+          "Professional tools"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "meetUs": {
+      "text": "Join as Expert",
+      "href": "#"
+    },
+    "downloadApp": {
+      "text": "Post a Task",
+      "href": "#"
+    },
+    "sections": [
+      {
+        "name": "For Clients",
+        "href": "#",
+        "content": "Post your task and get matched with qualified local experts. Compare bids, reviews, and expertise to find the perfect match for your needs. Our platform ensures secure payments and satisfaction guarantee."
+      },
+      {
+        "name": "For Experts",
+        "href": "#",
+        "content": "Share your expertise and grow your local client base. Set your own rates, choose your schedule, and build your professional reputation through our trusted platform."
+      },
+      {
+        "name": "Our Mission",
+        "href": "#",
+        "content": "We're building a community where local expertise meets local needs. Our platform makes it easy to find qualified help for any task while creating opportunities for skilled professionals in your neighborhood."
+      },
+      {
+        "name": "Trust & Safety",
+        "href": "#",
+        "content": "Every expert on our platform is verified and reviewed. We provide secure payments, insurance coverage, and dispute resolution to ensure a safe and reliable experience for everyone."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+    }
+  }
+}
