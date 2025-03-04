@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
+import { trackEvent } from '../utils/gtag';
+
 const Footer = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [email, setEmail] = useState('');
@@ -35,6 +37,7 @@ const Footer = () => {
     setStatus('Sending...');
 
     try {
+      trackEvent('submit', 'waitlist', 'join_waitlist');
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
@@ -94,6 +97,7 @@ const Footer = () => {
                 type="submit"
                 className="absolute right-2.5 p-2.5 text-primary hover:opacity-75 transition-opacity"
                 aria-label="Submit email"
+                onClick={() => trackEvent('click', 'button', 'join_waitlist')}
               >
                 <svg
                   className="w-6 h-6"

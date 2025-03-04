@@ -1,6 +1,12 @@
 import React from 'react';
 
+import { trackEvent } from '../utils/gtag';
+
 const Menu = () => {
+  const handleLogoClick = () => {
+    trackEvent('click', 'navigation', 'logo');
+  };
+
   return (
     <>
       <svg
@@ -22,6 +28,7 @@ const Menu = () => {
             <div className="flex items-center justify-between w-full md:w-auto">
               <a
                 href="#"
+                onClick={handleLogoClick}
                 className="text-2xl sm:text-3xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent tracking-tight"
               >
                 Find<span className="font-light">NearExperts</span>
